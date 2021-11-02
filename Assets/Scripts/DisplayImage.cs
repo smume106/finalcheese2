@@ -10,10 +10,10 @@ public class DisplayImage : MonoBehaviour
         get { return currentWall; }
         set
         {
-            if (value == 5)
+            if (value == 4)
                 currentWall = 1;
             else if (value == 0)
-                currentWall = 4;
+                currentWall = 3;
             else
                 currentWall = value;
         }
