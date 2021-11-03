@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColorGame : MonoBehaviour
 {
@@ -24,12 +25,6 @@ public class ColorGame : MonoBehaviour
     private bool gameActive;
     private int inputInSequence; 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -94,6 +89,12 @@ public class ColorGame : MonoBehaviour
 
         if (gameActive)
         {
+
+            if (inputInSequence == 4)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+            }
 
             if (activeSequence[inputInSequence] == whichButton)
             {
