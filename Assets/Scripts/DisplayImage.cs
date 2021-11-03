@@ -34,7 +34,7 @@ public class DisplayImage : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/wall" + currentWall.ToString());
         }
-
+        //This is a test to see if this push worked correctly
         previousWall = currentWall;
     }
 }
