@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: groupcheese
-  defaultCursor: {fileID: 2800000, guid: 67ca503184c8ad94fb74dbb95a092e64, type: 3}
+  defaultCursor: {fileID: 2800000, guid: 9188a666127a8a147977c72ce8e5e536, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
