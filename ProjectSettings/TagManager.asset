@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Music
   - Timer
+  - Interactable
   layers:
   - Default
   - TransparentFX
