@@ -13,7 +13,7 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startTime = Time.time;
+        startTime += Time.time;
     }
 
     // Update is called once per frame
@@ -28,6 +28,12 @@ public class Timer : MonoBehaviour
         string seconds = (t % 60).ToString("f2");
 
         timerText.text = minutes + ":" + seconds;
+    }
+
+    public void Restart()
+    {
+        finish = false;
+        Destroy(gameObject);
     }
 
     public void Finish()

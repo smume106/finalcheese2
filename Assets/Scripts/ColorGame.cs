@@ -90,9 +90,9 @@ public class ColorGame : MonoBehaviour
         if (gameActive)
         {
 
-            if (inputInSequence == 4)
+            if (inputInSequence == 2)
             {
-                GameObject.Find("Canvas").SendMessage("Finish");
+                GameObject.Find("Timer").SendMessage("Finish");
 
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
