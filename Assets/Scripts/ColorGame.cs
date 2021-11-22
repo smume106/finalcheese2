@@ -92,6 +92,8 @@ public class ColorGame : MonoBehaviour
 
             if (inputInSequence == 4)
             {
+                GameObject.Find("Canvas").SendMessage("Finish");
+
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             }
