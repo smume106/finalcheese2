@@ -323,6 +323,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &477583049
 =======
 --- !u!1 &328524292
@@ -638,6 +639,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 >>>>>>> c20a8ffe63c483465ab15e61bb651372d84f5aec
+=======
+>>>>>>> parent of 83b8690 (Level1)
 =======
 >>>>>>> parent of 83b8690 (Level1)
 --- !u!1 &519420028
@@ -1239,6 +1242,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1643363751
 =======
 --- !u!1 &1448473260
@@ -1396,5 +1400,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1448473260}
   m_CullTransparentMesh: 1
 >>>>>>> c20a8ffe63c483465ab15e61bb651372d84f5aec
+=======
+>>>>>>> parent of 83b8690 (Level1)
 =======
 >>>>>>> parent of 83b8690 (Level1)
