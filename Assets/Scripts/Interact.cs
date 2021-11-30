@@ -10,7 +10,7 @@ public class Interact : MonoBehaviour
     {
         currentDisplay = GameObject.Find("displayImage").GetComponent<DisplayImage>();
     }
-
+    //This is the Start function.
     void Update()
     {
         if(Input.GetMouseButtonDown(0))
