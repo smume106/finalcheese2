@@ -8,18 +8,8 @@ public class DontDestroy : MonoBehaviour
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("Music");
         if (objs.Length > 1)
-        {
             Destroy(this.gameObject);
-        }
 
         DontDestroyOnLoad(this.gameObject);
-
-        GameObject[] obj = GameObject.FindGameObjectsWithTag("Timer");
-        if (obj.Length > 1)
-        {
-            Destroy(this.gameObject);
-        }
-        DontDestroyOnLoad(this.gameObject);
-
     }
 }

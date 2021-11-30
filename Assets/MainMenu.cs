@@ -13,7 +13,6 @@ public class MainMenu : MonoBehaviour
 
     public void Replay()
     {
-        GameObject.Find("Timer").SendMessage("Restart");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex * 0);
 
     }
