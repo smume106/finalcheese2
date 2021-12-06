@@ -23,7 +23,7 @@ public class ColorGame : MonoBehaviour
     private int positionInSequence;
 
     private bool gameActive;
-    private int inputInSequence; 
+    private int inputInSequence;
 
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class ColorGame : MonoBehaviour
         {
             stayLitCounter -= Time.deltaTime;
 
-            if (stayLitCounter < 0) 
+            if (stayLitCounter < 0)
             {
                 colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 0.5f);
                 shouldBeLit = false;
@@ -44,18 +44,19 @@ public class ColorGame : MonoBehaviour
             }
         }
 
-        if(shouldBeDark)
+        if (shouldBeDark)
         {
             waitBetweenCounter -= Time.deltaTime;
 
-            if(positionInSequence >= activeSequence.Count)
+            if (positionInSequence >= activeSequence.Count)
             {
                 shouldBeDark = false;
                 gameActive = true;
 
-            } else
+            }
+            else
             {
-                if (waitBetweenCounter < 0 )
+                if (waitBetweenCounter < 0)
                 {
                     colors[activeSequence[positionInSequence]].color = new Color(colors[activeSequence[positionInSequence]].color.r, colors[activeSequence[positionInSequence]].color.g, colors[activeSequence[positionInSequence]].color.b, 1f);
 
@@ -67,13 +68,13 @@ public class ColorGame : MonoBehaviour
         }
     }
 
-    public void StartGame ()
+    public void StartGame()
     {
         activeSequence.Clear();
 
         positionInSequence = 0;
         inputInSequence = 0;
-        
+
         colorSelect = Random.Range(0, colors.Length);
 
         activeSequence.Add(colorSelect);
@@ -90,8 +91,10 @@ public class ColorGame : MonoBehaviour
         if (gameActive)
         {
 
-            if (inputInSequence == 4)
+            if (inputInSequence == 2)
             {
+                GameObject.Find("Timer").SendMessage("Finish");
+
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             }
@@ -100,10 +103,10 @@ public class ColorGame : MonoBehaviour
             {
                 inputInSequence++;
 
-                if(inputInSequence >= activeSequence.Count)
+                if (inputInSequence >= activeSequence.Count)
                 {
                     positionInSequence = 0;
-                    inputInSequence = 0; 
+                    inputInSequence = 0;
 
                     colorSelect = Random.Range(0, colors.Length);
 
@@ -114,13 +117,13 @@ public class ColorGame : MonoBehaviour
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
 
-                    gameActive = false; 
+                    gameActive = false;
                 }
 
             }
             else
             {
-                gameActive = false; 
+                gameActive = false;
             }
         }
     }
