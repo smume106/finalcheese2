@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf22b13e2e8a754c8f43566aa86217a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Password: 
+  Password: 123
   numberSprites: []
   currentIndividualIndex: 000000000000000000000000
 --- !u!1 &469226352
