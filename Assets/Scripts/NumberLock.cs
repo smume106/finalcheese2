@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NumberLock : MonoBehaviour
 {
@@ -50,6 +51,7 @@ public class NumberLock : MonoBehaviour
         {
             isOpen = true;
             Debug.Log("Password correct! You are awesome!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
