@@ -10,7 +10,7 @@ public class ObjectsManage : MonoBehaviour
 
     void Start()
     {
-        currentDisplay = GameObject.Find("dipslayImage").GetComponent<DisplayImage>();
+        currentDisplay = GameObject.Find("displayImage").GetComponent<DisplayImage>();
     }
 
     void Update()
