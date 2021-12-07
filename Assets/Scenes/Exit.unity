@@ -156,10 +156,10 @@ RectTransform:
   m_Father: {fileID: 1918576617}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.88644606}
-  m_AnchorMax: {x: 0.5, y: 0.88644606}
-  m_AnchoredPosition: {x: 70.54, y: 11.290001}
-  m_SizeDelta: {x: 265.45, y: 54.94}
+  m_AnchorMin: {x: 0.5, y: 0.8037774}
+  m_AnchorMax: {x: 0.5, y: 0.8037774}
+  m_AnchoredPosition: {x: 0.3760004, y: 2.5600004}
+  m_SizeDelta: {x: 265.39, y: 52.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &658751583
 MonoBehaviour:
@@ -614,10 +614,10 @@ RectTransform:
   m_Father: {fileID: 1918576617}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.21222302}
-  m_AnchorMax: {x: 1, y: 0.21222302}
-  m_AnchoredPosition: {x: 18.719994, y: 1}
-  m_SizeDelta: {x: 314.67, y: 66.6}
+  m_AnchorMin: {x: 0.5, y: 0.1986683}
+  m_AnchorMax: {x: 0.5, y: 0.1986683}
+  m_AnchoredPosition: {x: 0.13499832, y: -1.8399999}
+  m_SizeDelta: {x: 314.67, y: 66.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852678002
 MonoBehaviour:
@@ -663,13 +663,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1918576618}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -748,8 +748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.87, y: -58.5}
-  m_SizeDelta: {x: 103.64, y: 121.61}
+  m_AnchoredPosition: {x: 185, y: -44.11}
+  m_SizeDelta: {x: 115.73, y: 147.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918576618
 MonoBehaviour:
