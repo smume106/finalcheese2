@@ -7,31 +7,31 @@ TextureImporter:
     second: numbers_0
   - first:
       213: -1797931468360238817
-    second: numbers_1
+    second: numbers_0
   - first:
       213: 8660018047190439917
-    second: numbers_2
+    second: numbers_0
   - first:
       213: -3498881285385226111
-    second: numbers_3
+    second: numbers_0
   - first:
       213: 4377404233718576581
-    second: numbers_4
+    second: numbers_0
   - first:
       213: 4142773217156024776
-    second: numbers_5
+    second: numbers_0
   - first:
       213: -5267421815309426554
-    second: numbers_6
+    second: numbers_0
   - first:
       213: 396241215753336735
-    second: numbers_7
+    second: numbers_0
   - first:
       213: 3845720923341389424
-    second: numbers_8
+    second: numbers_0
   - first:
       213: 5966370575965500985
-    second: numbers_9
+    second: numbers_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: numbers_0
+      name: numbers_1
       rect:
         serializedVersion: 2
         x: 10
@@ -142,7 +142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_1
+      name: numbers_2
       rect:
         serializedVersion: 2
         x: 89
@@ -163,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_2
+      name: numbers_3
       rect:
         serializedVersion: 2
         x: 166
@@ -184,7 +184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_3
+      name: numbers_4
       rect:
         serializedVersion: 2
         x: 245
@@ -205,7 +205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_4
+      name: numbers_5
       rect:
         serializedVersion: 2
         x: 323
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_5
+      name: numbers_6
       rect:
         serializedVersion: 2
         x: 10
@@ -247,7 +247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_6
+      name: numbers_7
       rect:
         serializedVersion: 2
         x: 89
@@ -268,7 +268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_7
+      name: numbers_8
       rect:
         serializedVersion: 2
         x: 166
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_8
+      name: numbers_9
       rect:
         serializedVersion: 2
         x: 245
@@ -310,7 +310,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numbers_9
+      name: numbers_0
       rect:
         serializedVersion: 2
         x: 323
